@@ -8,7 +8,7 @@
 
 ### [4. LFO](LFO.h)
 
-### [5. Distortion](Distortion.h)
+### [5. Distorsion](Distorsion.h)
 
 ### [6. Filtro](Filtro.h)
 
