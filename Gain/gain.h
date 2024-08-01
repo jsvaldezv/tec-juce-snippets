@@ -13,3 +13,6 @@ for (int channel = 0; channel < buffer.getNumChannels(); channel++)
         buffer.setSample(channel, i, processedSample);
     }
 }
+
+// Convertir de dB a lineal
+float linearValue = juce::Decibels::decibelsToGain (decibelsValue, -100.0f)

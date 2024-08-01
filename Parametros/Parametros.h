@@ -23,4 +23,8 @@ juce::AudioProcessorValueTreeState::ParameterLayout MiPluginAudioProcessor::crea
 float parameterValue = *apvts.getRawParameterValue("Parametro");
 
 // Activar GUI por Default
-return new juce::GenericAudioProcessorEditor(*this);
+juce::AudioProcessorEditor* MiPluginAudioProcessor::createEditor()
+{
+    //return new MiPluginAudioProcessorEditor (*this);
+    return new juce::GenericAudioProcessorEditor (*this);
+}
