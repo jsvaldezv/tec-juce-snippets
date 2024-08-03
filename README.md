@@ -31,3 +31,8 @@
 ### [15. Background](Background.h)
 
 ### [16. Look And Feel](LookAndFeel.h)
+
+### [17. Paint Audio](PaintAudio.h)
+
+### [18. Basic Synth](BasicSynth.h)
+### [18. Basic Sampler](BasicSampler.h)
